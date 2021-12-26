@@ -2,7 +2,7 @@
 const HttpProvider = require('./httpprovider');
 const Utils = require('./utils');
 
-class ARRRweb3 {
+class KomodoWeb3 {
   constructor(url) {
     this.provider = new HttpProvider(url);
     this.utils = Utils;
@@ -364,4 +364,4 @@ class ARRRweb3 {
   }
 }
 
-module.exports = ARRRweb3;
+module.exports = KomodoWeb3;
