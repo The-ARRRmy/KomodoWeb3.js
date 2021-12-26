@@ -1,12 +1,12 @@
 {
-  "name": "arrrweb3",
-  "namespace": "pirate",
-  "version": "0.1.0",
-  "description": "Pirate JavaScript API comunicating to pirate node over RPC",
+  "name": "komodoweb3",
+  "namespace": "komodo",
+  "version": "0.0.3",
+  "description": "Komodo JavaScript API comunicating to komodo node over RPC",
   "main": "./src/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/The-ARRRmy/ARRRweb3.js.git"
+    "url": "https://github.com/The-ARRRmy/KomodoWeb3.js.git"
   },
   "license": "LGPL-3.0",
   "engines": {
@@ -52,7 +52,7 @@
     }
   },
   "bugs": {
-    "url": "https://github.com/The-ARRRmy/ARRRweb3.js/issues"
+    "url": "https://github.com/The-ARRRmy/KomodoWeb3.js/issues"
   },
   "keywords": [
     "piratechain",
