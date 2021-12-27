@@ -204,7 +204,7 @@ class KomodoWeb3 {
    * @return {Promise} Pirate address or Error.
    */
   getNewAddress() {
-    return this.provider.rawCall('z_getnewaddress');
+    return this.provider.rawCall('getnewaddress');
   }
 
   /**

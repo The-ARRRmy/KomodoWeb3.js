@@ -30,7 +30,7 @@ npm i
 
 You need to create a `.env` file in the root folder with the following variables in the following formats. Change it to how your environment is setup.
 ```
-PIRATE_RPC_ADDRESS='http://komodo:komodo@localhost:7771'
+KOMODO_RPC_ADDRESS='http://komodo:komodo@localhost:7771'
 SENDER_ADDRESS='zs18y685qy9yeskqgpthzu2wr7hcvqpzzwesnrg3d2udrxq90st53elg07qmx4j5hnnv6mjwaap7yy'
 WALLET_PASSPHRASE='komodo'
 ``` 
