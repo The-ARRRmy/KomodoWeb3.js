@@ -151,7 +151,7 @@ class Utils {
    * @param {String}
    * @return {Boolean}
    */
-  static isPirateAddress(address) {
+  static isKomodoAddress(address) {
     if (_.isUndefined(address)) {
       return false;
     }
