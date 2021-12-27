@@ -213,7 +213,7 @@ class KomodoWeb3 {
    * @return {Promise} Promise containing result object or Error
    */
   getTransaction(txid) {
-    return this.provider.rawCall('zs_gettransaction', [txid]);
+    return this.provider.rawCall('gettransaction', [txid]);
   }
 
   /**
